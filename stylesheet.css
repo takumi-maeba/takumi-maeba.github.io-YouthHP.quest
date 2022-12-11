@@ -3,6 +3,7 @@
 }
 
 body {
+  width:100%;
   margin: 0;
   font-family: 'Roboto Condensed';
   color: #6D6D6D;
@@ -14,6 +15,14 @@ a {
 
 .clear {
   clear: left;
+  clear: right;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 header{
@@ -28,7 +37,7 @@ header{
 }
 
 .top-wrapper-quest{
-  width: 700px;
+  width: 70%;
 }
 
 .top-wrapper-title{
@@ -125,7 +134,7 @@ header{
 .quest1{
   background-color: #FDD700;
   margin: 100px;
-  height: 720px;
+  padding-bottom: 50px;
 }
 
 .quest1 h3{
@@ -148,7 +157,6 @@ header{
 }
 
 .quest1-main{
-  height: 500px;
 }
 
 .quest1-main-left{
@@ -187,7 +195,7 @@ header{
 .quest2{
   background-color: #FDD700;
   margin: 100px;
-  height: 720px;
+  padding-bottom: 50px;
 }
 
 .quest2 h3{
@@ -210,13 +218,12 @@ header{
 }
 
 .quest2-main{
-  height: 500px;
 }
 
 .quest2-main-left{
   float: left;
-  width: 40%;
   height: 500px;
+  width: 40%;
   padding:50px 0 50px 50px;
 }
 

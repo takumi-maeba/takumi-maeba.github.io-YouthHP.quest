@@ -1,222 +1,161 @@
-@media (max-width:400px){
-
-  .top-wrapper{
-    height: 300px;
-    background-image: url(image/top-background-image.png);
-    background-size: cover;
+@media (max-width:1100px){
+  .main{
+    height: 2300px;
   }
 
-  .top-wrapper-quest{
-    width: 80%;
+  .about{
   }
 
-  .top-wrapper-title{
-    float: left;
-    margin: 50px 0 0 0;
-  }
-  
-  .top-wrapper-title h1{
-    font-size: 72px;
-    color: #fff;
-    margin: 0;
-  }
-  
-  .top-wrapper-text{
-    float: left;
-    width: 290px;
-    margin: 0;
-  }
-  
-  .top-wrapper-text p{
-    color: #fff;
-    font-size: 15px;
-    margin: 0;
+  .about-left{
+    width: 100%;
+    text-align: center;
   }
 
-  .about-quest-left{
-    float: left;
+  .about-right{
     width: 100%;
   }
-  
-  .about-quest-right{
-    float: right;
-    width:100%;
-    padding: 70px 60px 0 50px;
+
+  .flow{
   }
 
-  
-.quest-overview{
-  margin: 30px;
+  .flow-left{
+    width: 100%;
+  }
+
+  .flow-right{
+    width: 100%;
+    text-align: center;
+  }
+
+  .quest1{
+    margin: 0 20px 200px;
+    height: 1100px;
+  }
+
+  .quest1-left{
+    width: 100%;
+  }
+
+  .quest1-right{
+    width: 100%;
+  }
+
+  .quest2{
+    margin: 0 20px 200px;
+    height: 1100px;
+  }
+
+  .quest2-left{
+    width: 100%;
+  }
+
+  .quest2-right{
+    width: 100%;
+  }
 }
 
-.quest-overview img{
-  : 100%;
-}
+@media(max-width:500px){
+  header{
+    height: 80px;
+    width: 100%;
+  }
 
-.quest-overview h2{
-  font-size: 40px;
-  border-bottom: 2px solid #FDD700;
-}
+  .header-left{
+    height: 80px;
+    width: 80px;
+    background-color: #FDD700;
+  }
 
-.quest-overview p{
-  font-size: 24px;
-}
+  .top-text{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+  }
 
-.about-quest{
-  height: 500px;
-}
+  .top-text h1{
+    font-size: 80px;
+  }
 
-.about-quest-title{
-  width: 250px;
-  text-align: center;
-}
+  .top-text p{
+    font-size: 20px;
+  }
 
-.about-quest-left{
-  float: left;
-  width: 40%;
-}
+  .main{
+    padding: 50px 10px;
+  }
 
-.about-quest-right{
-  float: right;
-  width:60%;
-  padding: 70px 60px 0 50px;
-}
+  .about{
+  }
 
-.quest-flow{
-  height: 500px;
-}
+  .about-left{
+    height: 80%;
+  }
 
-.quest-flow-left{
-  float: left;
-  width: 60%;
-  padding-left: 100px;
-}
+  .about-left img{
+    height: 80%;
+  }
 
-.quest-flow-title{
-  width: 500px;
-  text-align: center;
-}
+  .about-right{
 
-.quest-flow-right{
-  float: right;
-}
+  }
 
-.quest-image{
-  height: 500px;
-}
+  .main-text{
+    padding: 0;
+  }
 
-.number{
-  text-align: center;
-  font-size: 128px;
-  color: #fff;
-  margin:0;
-}
+  .main-text h2{
+    font-size: 30px;
+    width: 400px;
+  }
 
-/*quest1*/
+  .main-text p{
+    font-size: 20px;
+  }
 
-.quest1{
-  background-color: #FDD700;
-  margin: 100px;
-  padding-bottom: 50px;
-}
+  .flow-right{
+    height: 80%;
+  }
 
-.quest1 h3{
-  font-size: 40px;
-  color: #fff;
-  border-bottom: dashed 5px #6D6D6D;
-  width: 500px;
-}
+  .flow-right img{
+    height: 80%;
+  }
 
-.quest1 p{
-  font-size: 20px;
-  color: #fff;
-}
+  .quest{
 
-.quest1 a{
-  font-size: 15px;
-}
+  }
 
-.quest1-top{
-}
+  .number{
+    font-size: 40px;
+    margin: -70px;
+  }
 
-.quest1-main{
-}
+  .quest-text h2{
+    font-size: 30px;
+  }
 
-.quest1-main-left{
-  float: left;
-  margin: 0 0 0 50px;
-}
+  .quest-text p{
+    font-size: 20px;
+  }
 
-.quest1-main-right{
-  float: right;
-  width: 40%;
-  height: 500px;
-  padding:50px 0;
-}
+  .quest-image img{
+    height: 250px;
+  }
 
-.quest1-title{
+  .btn-box{
+  }
 
-}
+  .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
+  }
 
-.quest-btn{
-  background-color: #FEF4D9;
-  text-align: center;
-  width: 150px;
-  height: 50px;
-  padding: 15px;
-  border-radius: 55px;
-  box-shadow: 0px 10px 10px 0;
-  margin:100px 0 0 300px;
-}
+  .quest1{
+    height: 850px;
+  }
 
-.quest-btn a{
-  color: #6D6D6D;
-}
-
-/*quest2*/
-
-.quest2{
-  background-color: #FDD700;
-  margin: 100px;
-  padding-bottom: 50px;
-}
-
-.quest2 h3{
-  font-size: 40px;
-  color: #fff;
-  border-bottom: dashed 5px #6D6D6D;
-  width: 500px;
-}
-
-.quest2 p{
-  font-size: 20px;
-  color: #fff;
-}
-
-.quest2 a{
-  font-size: 15px;
-}
-
-.quest2-top{
-}
-
-.quest2-main{
-}
-
-.quest2-main-left{
-  float: left;
-  height: 500px;
-  width: 40%;
-  padding:50px 0 50px 50px;
-}
-
-.quest2-main-right{
-  float:right;
-  margin: 0 50px 0 0;
-}
-
-footer{
-  background-color: #6D6D6D;
-  height: 788px;
-}
+  .quest2{
+    height: 850px;
+  }
 }
